@@ -27,7 +27,7 @@ import Mooc.Todo
 -- should take one argument and return it multiplied by two.
 
 double :: Integer -> Integer
-double x = todo
+double x = x*2
 
 ------------------------------------------------------------------------------
 -- Ex 3: define the function quadruple that uses the function double
@@ -35,7 +35,7 @@ double x = todo
 -- four.
 
 quadruple :: Integer -> Integer
-quadruple x = todo
+quadruple x = 4*(double x)
 
 ------------------------------------------------------------------------------
 -- Ex 4: define the function distance. It should take four arguments of
